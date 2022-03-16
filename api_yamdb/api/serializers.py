@@ -2,17 +2,10 @@ import datetime as dt
 
 from django.db.models.aggregates import Avg
 from rest_framework import serializers
+from rest_framework.fields import CurrentUserDefault
 from rest_framework.generics import get_object_or_404
 from rest_framework.validators import UniqueTogetherValidator
-from rest_framework.fields import CurrentUserDefault
-from reviews.models import (
-    Category,
-    Comment,
-    Genre,
-    User,
-    Review,
-    Title,
-)
+from reviews.models import Category, Comment, Genre, Review, Title, User
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -97,8 +90,8 @@ class TitleDafault:
     def __call__(self, serializer_field):
         view = serializer_field.context['view']
         title_id = view.kwargs.get('title_id')
-        title = get_object_or_404(Title, id=title_id)
-        return title
+
+        return get_object_or_404(Title, id=title_id)
 
     def __repr__(self):
         return '%s()' % self.__class__.__name__

@@ -7,12 +7,12 @@ from rest_framework_simplejwt.tokens import AccessToken
 
 def create_confirmation_code():
     "Создание уникального проверочного кода."
-    code = str(
+
+    return str(
         random.choice(string.digits)
         + random.choice(string.ascii_uppercase)
         + random.choice(string.digits)
     )
-    return code
 
 
 def send_code_to_mail_of_user(email, confirmation_code, username):
