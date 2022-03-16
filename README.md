@@ -1,5 +1,9 @@
 # Api_yamdb
 
+## Workflow status badge
+
+![example workflow](https://github.com/Blayter/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 ## Description
 
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
@@ -62,7 +66,3 @@ docker-compose down -v
 ## Author
 
 Mishenin Sergey
-
-## Workflow status badge
-
-![example workflow](https://github.com/Blayter/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
