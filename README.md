@@ -62,3 +62,7 @@ docker-compose down -v
 ## Author
 
 Mishenin Sergey
+
+## Workflow status badge
+
+![example workflow](https://github.com/Blayter/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
