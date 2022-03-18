@@ -19,6 +19,8 @@ DB_PORT
 
 SECRET_KEY
 
+ALLOWED_HOSTS
+
 ## Docker install manual
 
 Visit https://www.digitalocean.com/community/tutorials/docker-ubuntu-18-04-1-ru
@@ -65,7 +67,7 @@ docker-compose down -v
 
 ## Project address 
 
-http://84.201.175.62/
+http://84.201.175.62/admin/
 
 ## Author
 
