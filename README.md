@@ -63,6 +63,10 @@ docker-compose down -v
 - Postgres
 - Django
 
+## Project address 
+
+http://84.201.175.62/
+
 ## Author
 
 Mishenin Sergey
