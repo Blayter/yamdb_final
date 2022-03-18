@@ -5,9 +5,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = os.getenv("SECRET_KEY", default="SUP3RS3CR3TK3YF0RMYPR0J3CT")
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = os.getenv(list("ALLOWED_HOSTS"), default=["127.0.0.1"])
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", default="127.0.0.1")
 
 
 INSTALLED_APPS = [
