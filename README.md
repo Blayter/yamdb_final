@@ -65,4 +65,4 @@ docker-compose down -v
 
 ## Author
 
-Mishenin Sergey 1
+Mishenin Sergey
