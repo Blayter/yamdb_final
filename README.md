@@ -71,4 +71,4 @@ http://84.201.175.62/admin/
 
 ## Author
 
-Mishenin Sergey
+Mishenin Sergey.
