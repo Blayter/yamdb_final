@@ -3,11 +3,11 @@ from datetime import timedelta
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = os.getenv("SECRET_KEY", default="SUP3RS3CR3TK3YF0RMYPR0J3CT")
+SECRET_KEY = os.getenv('SECRET_KEY', default='SUP3RS3CR3TK3YF0RMYPR0J3CT')
 
 DEBUG = False
 
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", default="84.201.175.62").split(' ')
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '84.201.175.62', 'web']
 
 
 INSTALLED_APPS = [
