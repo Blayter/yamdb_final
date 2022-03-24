@@ -49,7 +49,7 @@ jobs:
         with:
           file: api_yamdb/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_LOGIN }}/final_web:latest
+          tags: ${{ secrets.DOCKERHUB_LOGIN }}/final_web:v1
 
   deploy:
     runs-on: ubuntu-latest
